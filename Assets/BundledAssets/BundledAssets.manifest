@@ -1,0 +1,25 @@
+ManifestFileVersion: 0
+CRC: 3526725478
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: video3d_1
+      Dependencies: {}
+    Info_1:
+      Name: test
+      Dependencies: {}
+    Info_2:
+      Name: video3d_2
+      Dependencies: {}
+    Info_3:
+      Name: videocanva
+      Dependencies: {}
+    Info_4:
+      Name: scw_videocanva
+      Dependencies: {}
+    Info_5:
+      Name: scw_video1
+      Dependencies: {}
+    Info_6:
+      Name: scw_video2
+      Dependencies: {}

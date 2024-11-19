@@ -1,0 +1,8 @@
+.drop-area {
+    border-width: 2px;
+    border-color: gray;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}

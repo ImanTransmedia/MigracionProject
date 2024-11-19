@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <ui:VisualElement class="drop-area" name="dropArea">
+        <ui:Label text="Arrastra aquí tu Prefab" />
+    </ui:VisualElement>
+</ui:UXML>
