@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 3526725478
+CRC: 4232962194
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -22,4 +22,13 @@ AssetBundleManifest:
       Dependencies: {}
     Info_6:
       Name: scw_video2
+      Dependencies: {}
+    Info_7:
+      Name: ios_canvas
+      Dependencies: {}
+    Info_8:
+      Name: ios_prop_3
+      Dependencies: {}
+    Info_9:
+      Name: ios_prop_4
       Dependencies: {}
