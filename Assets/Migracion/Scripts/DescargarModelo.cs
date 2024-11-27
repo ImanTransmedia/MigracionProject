@@ -1,8 +1,6 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Networking;
-
 
 public class DescargarModelo : MonoBehaviour
 {
@@ -14,11 +12,9 @@ public class DescargarModelo : MonoBehaviour
     [SerializeField] private GameObject[] ImageTarget; 
     public GameObject Instancia; 
 
-
     public void Start()
     {
-        //Descargar();
-        
+        //Descargar();       
     }
 
     public void Descargar()
@@ -33,7 +29,6 @@ public class DescargarModelo : MonoBehaviour
         DestroyImmediate(Instancia, true);
     }
 
-
     public IEnumerator downloadObject()
     {
         UnityWebRequest www1 = UnityWebRequestAssetBundle.GetAssetBundle(url);
@@ -42,10 +37,8 @@ public class DescargarModelo : MonoBehaviour
         while (!operation.isDone)
         {
             progresoDescarga = www1.downloadProgress * 100;
-
             yield return null;
         }
-
 
         if (operation.isDone)
         {
@@ -60,13 +53,9 @@ public class DescargarModelo : MonoBehaviour
                 Instancia = Instantiate(modelo, target.transform);
                 
             }
-            
-
-
+ 
         }
 
     }
-
-
 
 }
